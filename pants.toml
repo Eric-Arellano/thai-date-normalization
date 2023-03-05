@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.15.0"
+backend_packages = [
+    "pants.backend.build_files.fmt.black",
+    "pants.backend.python",
+    "pants.backend.python.lint.black",
+    "pants.backend.python.lint.isort",
+]
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "DCC04163-1516-465C-B62E-0F1D3C4BC257"
+
+[source]
+root_patterns = ["/"]
